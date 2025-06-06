@@ -1,0 +1,30 @@
+body.bg-\[\#1a1a1a\] {
+  background: #1a1a1a;
+  color: #fff;
+}
+body.bg-white {
+  background: #fff;
+  color: #111;
+}
+.admin-aura {
+  box-shadow: 0 0 16px 2px #3b82f6;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+select {
+  color: #111;
+}
+.dark select {
+  color: #fff;
+  background: #222;
+}
+.relative .absolute {
+  transition: opacity 0.2s;
+}
